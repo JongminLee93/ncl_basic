@@ -27,7 +27,7 @@ __Return value__
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### 계절별 평균 [month_to_season(X, opt)](https://www.ncl.ucar.edu/Document/Functions/Contributed/month_to_season.shtml)
-특정 시간 차원에 대해서는 작동을 안하는 듯..?
+월별 자료를 계절별 자료(3개월 기준)로 변환, 실수형 데이터를 변수로 넣어줘야함
 
 __Arguments__
 __X__ = 월별자료, 시간차원을 반드시 포함, 다차원 자료인 경우 첫번째 차원이 시간 차원
@@ -36,3 +36,4 @@ __opt__ = "DJF" ~ "NDJ" 계절에 대한 opt
 __Return value__
 시간차원이 특정 계절에 대한 차원으로 변경
 
+###### 자매품 [month_to_season12(X)](https://www.ncl.ucar.edu/Document/Functions/Contributed/month_to_season12.shtml) [month_to_season]
