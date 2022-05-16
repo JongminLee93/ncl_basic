@@ -18,7 +18,7 @@ An array of the same size and type as x except that the leftmost dimension will 
 Converts monthly values to annual values.   
    
 __Arguments__   
-__X__ = 월별 자료, 다차원 자료인 경우에 첫번째 차원이 시간 차원이어야 함.   
+__X__ = 월별 자료, 다차원 자료인 경우 첫번째 차원이 시간 차원이어야 함.   
 __opt__ = 0 : 월별 자료의 연 합계 / 1 : 연 평균
 
 __Return value__   
@@ -26,3 +26,13 @@ __Return value__
 *Note: Upon return the 'temporal' dimension will be named year to avoid confusing dimension names.*
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### 계절별 평균 [month_to_season(X, opt)](https://www.ncl.ucar.edu/Document/Functions/Contributed/month_to_season.shtml)
+특정 시간 차원에 대해서는 작동을 안하는 듯..?
+
+__Arguments__
+__X__ = 월별자료, 시간차원을 반드시 포함, 다차원 자료인 경우 첫번째 차원이 시간 차원
+__opt__ = "DJF" ~ "NDJ" 계절에 대한 opt
+
+__Return value__
+시간차원이 특정 계절에 대한 차원으로 변경
+
