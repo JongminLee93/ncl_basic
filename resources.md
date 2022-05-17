@@ -11,6 +11,7 @@ __tmXMajorGrid__ : x축 major 틱마커의 grid line On/Off | True, False
 
 __tmXMajorGridLineDashPattern__ : grid line의 선 모양 설정
 
+__gsnTickMarksOn__ : 자동적으로 그려주는 눈금 제거 ex) gsn_csm_contour_polar() 등등
    
 ## 산포도
 xy-plot의 모드를 바꿔서 그린다. 
@@ -50,6 +51,14 @@ __mpGridLineDashPattern__ : grid line의 선 모양 결정 | 0~16
 __mpGridLineThicknessF__ : grid line의 선 굵기 결정 | default=1.0   
 
 __pmTickMarkDisplayMode__ : 틱마커 표현 여부 | "NoCreate", "Never", "Always"
+
+
+## 등고선
+__cnLinesOn__ : 등고선 선 On/Off | True, False
+
+__cnFillOn__ : 등고선 색칠 On/Off | True, False
+
+
 
 
 
