@@ -49,4 +49,5 @@ __Return value__
 입력한 시간 자료를 문자열로 변환한 배열
 
 ###### 자매품 [cd_calendar](https://www.ncl.ucar.edu/Document/Functions/Built-in/cd_calendar.shtml)
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### 고차원 자료의 최댓값 인덱스 찾기 [maxind() + ind_resolve()](https://www.ncl.ucar.edu/Document/Functions/Built-in/maxind.shtml)
