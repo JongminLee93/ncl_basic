@@ -59,6 +59,30 @@ __cnLinesOn__ : 등고선 선 On/Off | True, False
 __cnFillOn__ : 등고선 색칠 On/Off | True, False
 
 
+## 범례
+__lgItemType__ : 범례에 쓰일 모양 | "Lines", "MarkLines", "Markers", default="Lines"
+
+__lgLineColors__ : 범례에 쓰이는 선 색깔
+
+__lgMarkerColors__ : 
+
+__lgMarkerIndexes__ : 개별로 마커 모양 선택 | 0~16
+
+__lgMarkerSizeF__ : 마커 크기 변경
+
+__lgDashIndexes__ : 개별로 선 모양 선택 | 0~16
+
+##### 참고 : [gsn_create_legend(workstation, 범례 개수, 범례 이름, res)](https://www.ncl.ucar.edu/Document/Graphics/Interfaces/gsn_create_legend.shtml)
+
+
+## annotation manager
+__amParallelPosF__ : 범례 좌우 이동
+
+__amOrthogonalPosF__ : 범례 상하 이동
+
+##### 참고 : [gsn_add_annotation(plot, legend ID, res)](https://www.ncl.ucar.edu/Document/Graphics/Interfaces/gsn_add_annotation.shtml)
+
+
 
 
 
