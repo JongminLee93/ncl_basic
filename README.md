@@ -51,3 +51,6 @@ __Return value__
 ###### 자매품 [cd_calendar](https://www.ncl.ucar.edu/Document/Functions/Built-in/cd_calendar.shtml)
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### 고차원 자료의 최댓값 인덱스 찾기 [maxind() + ind_resolve()](https://www.ncl.ucar.edu/Document/Functions/Built-in/maxind.shtml)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### 배열에 다른 배열 이어 붙이기 [array_append_record(x1,x2,opt)](https://www.ncl.ucar.edu/Document/Functions/Contributed/array_append_record.shtml)
+배열 x1에 
