@@ -53,4 +53,13 @@ __Return value__
 ### 고차원 자료의 최댓값 인덱스 찾기 [maxind() + ind_resolve()](https://www.ncl.ucar.edu/Document/Functions/Built-in/maxind.shtml)
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### 배열에 다른 배열 이어 붙이기 [array_append_record(x1,x2,opt)](https://www.ncl.ucar.edu/Document/Functions/Contributed/array_append_record.shtml)
-배열 x1에 
+배열 x1에 다른 배열 x2를 이어주는 함수
+
+__Argument__   
+- __X1__ = 이어지는 첫번째 배열   
+- __X2__ = 이어지는 두번째 배열   
+- __opt__ = 지금은 사용되지 않는 옵션
+
+__Return value__
+X1과 X2가 이어진 배열
+
