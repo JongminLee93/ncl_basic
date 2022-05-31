@@ -63,3 +63,15 @@ __Argument__
 __Return value__
 X1과 X2가 이어진 배열
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### 소수점 이하 버리기 [decimalPlaces(x, n, opt)](https://www.ncl.ucar.edu/Document/Functions/Contributed/decimalPlaces.shtml)
+특정 소수점 이하를 반올림하거나 버림
+
+__Argument__   
+- __x__ = 처리할 수   
+- __n__ = 반올림하거나 버릴 자리수, n+1부터 없어짐   
+- __opt__ = 반올림 or 버림 Flag, True : round, False : truncate
+
+__Return value__
+반올림 or 버림 처리된 수
+
