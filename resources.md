@@ -74,6 +74,15 @@ __lgDashIndexes__ : 개별로 선 모양 선택 | 0~16
 
 ##### 참고 : [gsn_create_legend(workstation, 범례 개수, 범례 이름, res)](https://www.ncl.ucar.edu/Document/Graphics/Interfaces/gsn_create_legend.shtml)
 
+## label
+__lbTilteOn__ : label 제목 on/off, lbTitleString속성을 설정하면 default True | True, False
+
+__lbTitleString__ : label 제목 내용
+
+__lbOrientation__ : label 방향 | "Vertical", "Horizontal"
+
+__lbBottomMarginF__ : label Perimeter로부터 margin 설정 가능, Top Left Right 도 가능
+
 
 ## annotation manager
 __amParallelPosF__ : 범례 좌우 이동
@@ -81,9 +90,4 @@ __amParallelPosF__ : 범례 좌우 이동
 __amOrthogonalPosF__ : 범례 상하 이동
 
 ##### 참고 : [gsn_add_annotation(plot, legend ID, res)](https://www.ncl.ucar.edu/Document/Graphics/Interfaces/gsn_add_annotation.shtml)
-
-
-
-
-
 
